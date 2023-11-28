@@ -1,0 +1,13 @@
+{
+    "name": "Search with Iago",
+    "description": "Uses the chrome.contextMenus API to add Search with Iago context menu item.",
+    "version": "0.1",
+    "permissions": ["contextMenus", "tabs"],
+    "background": {
+      "service_worker": "search.js"
+    },
+    "manifest_version": 3,
+    "icons": {
+        "16": "icon-16.png"
+    }
+  }
